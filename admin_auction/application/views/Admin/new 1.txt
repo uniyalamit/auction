@@ -1,0 +1,42 @@
+ <div class="item form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="name">Quaintity<span class="required">*</span>
+                        </label>
+					  <div class="col-md-6 col-sm-6 col-xs-12">
+                          <input  class="form-control col-md-7 col-xs-12" name="dis_quantity" value="" required placeholder="Discount Quantity"  type="text">
+                        <span style="color:red;"><?php echo form_error('product_name'); ?></span>
+						</div>
+                        </div>
+						 <div class="item form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="name">price<span class="required">*</span>
+                        </label>
+					  <div class="col-md-6 col-sm-6 col-xs-12">
+                          <textarea  class="form-control col-md-7 col-xs-12" name="price" value="" required placeholder="Price">
+                        </textarea>
+						<span style="color:red;"><?php echo form_error('product_desc'); ?></span>
+						</div>
+                        </div>
+						 <div class="item form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="name">Discount Price<span class="required">*</span>
+                        </label>
+					  <div class="col-md-6 col-sm-6 col-xs-12">
+                          <input   class="form-control col-md-7 col-xs-12" name="discount_price"  type="text" placeholder="Meta Tag Title">
+						  <span style="color:red;"><?php echo form_error(''); ?></span>
+					   </div>
+                        </div>
+						<div class="item form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="name">Start Date<span class="required">*</span>
+                        </label>
+					  <div class="col-md-6 col-sm-6 col-xs-12">
+                          <input   class="form-control col-md-7 col-xs-12" name="start_date" type="date"  >
+						  
+						  <span style="color:red;"><?php echo form_error(''); ?></span>
+					   </div>
+					  
+                        </div>
+						 <div class="item form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12">End Date</label>
+                       <div class="col-md-6 col-sm-6 col-xs-12">
+                          <input id="tags_1" type="date" class="tags form-control"  name="end_date"/>
+                          <div id="suggestions-container" style="position: relative; float: left; width: 250px; margin: 10px;"></div>
+                        </div>
+                      </div>
